@@ -1,0 +1,66 @@
+.bb{
+    display: block;
+
+}
+
+li{
+    list-style: none;
+
+
+}
+
+.nav-link:hover{
+    background-color: #EFFFFD;
+    color: white;
+}
+
+#left-nav{
+
+    background-color: whitesmoke;
+}
+
+#right-nav{
+    
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+    left-nav {
+        background-color: red;
+        
+        
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 300px) {
+    left-nav {
+        background-color: blue;
+    
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    left-nav {
+        background-color: green;
+    
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    left-nav {
+        background-color: yellow;
+    
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+     left-nav {
+        background-color: pink;
+    
+    }
+  }
